@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" href="./assets/logo.svg">
+</head>
+<body>
+    <header class="bg-[#004F44]">
+        <div class="lg:container mx-auto px-[16px]">
+            <nav class="h-[100px] flex justify-between items-center relative">
+                <ul class="flex gap-[40px] max-[990px]:fixed max-[990px]:top-0 max-[990px]:right-[-51%] max-[990px]:z-50 max-[990px]:w-1/2 max-[990px]:h-screen max-[990px]:flex-col max-[990px]:items-center max-[990px]:gap-5 max-[990px]:backdrop-blur-sm max-[990px]:duration-700">
+                    <li>
+                        <a href="#" class="font-[DM] text-white font-normal hover:opacity-70 duration-300">
+                            <span>Shop</span>
+                        </a>
+                    </li>
+                    <li>
+                        <select name="" id="" class="bg-transparent font-[DM] text-white font-normal outline-0 cursor-pointer hover:opacity-70 duration-300">
+                            <option value="">Products</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href="#" class="font-[DM] text-white font-normal hover:opacity-70 duration-300">
+                            <span>Fertilizer</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="font-[DM] text-white font-normal hover:opacity-70 duration-300">
+                            <span>Guide</span>
+                        </a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="#" class="text-white absolute left-0 top-1/2 translate-y-[-50%] hidden max-[990px]:block max-[990px]:text-[20px] max-[990px]:ml-5"><i class="fa-solid fa-bars"></i></a>
+                </div>
+                <div class="absolute left-2/4 translate-x-[-50%] max-sm:hidden">
+                    <a href="#">
+                        <img class="w-full" src="./assets/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="flex gap-[20px] items-center">
+                    <a href="#" class="w-5 h-5 text-white hover:opacity-70 duration-300"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#" class="w-5 h-5 text-white hover:opacity-70 duration-300"><i class="fa-regular fa-user"></i></a>
+                    <a href="#" class="w-5 h-5 text-white hover:opacity-70 duration-300"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="bg-[#004F44] py-[90px] max-[990px]:py-[50px] max-sm:py-[30px]">
+            <div class="lg:container mx-auto px-[16px]">
+                <div class="flex justify-between gap-[20px] max-[990px]:flex-col max-[990px]:items-center max-[990px]:gap-[40px]">
+                    <div class="flex flex-col gap-[32px] justify-center max-[990px]:items-center">
+                        <p class="font-[DM] text-[64px] text-[#EFF7F5] max-w-[550px] max-[990px]:text-[52px] max-sm:text-[28px]">Happiness blooms from within</p>
+                        <p class="font-[steppe] text-[#EFF7F5] max-w-[550px] max-[990px]:text-[14px] max-sm:text-[12px]">Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.</p>
+                        <div class="flex gap-[40px] items-center">
+                            <button class="py-[19px] px-[41px] bg-[#EFF7F5] text-[#004F44] font-[DM] shadow-2xl flex items-center justify-center max-[990px]:py-[14px] max-[990px]:px-[32px] max-sm:py-[8px] max-sm:px-[20px] max-sm:text-[12px]">Shop now</button>
+                            <button class="bg-transparent text-[#EFF7F5] font-[steppe] max-sm:text-[12px]">Explore plants <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="grid gap-[5px] w-[607px] max-[700px]:w-auto">
+                        <div class="grid group col-start-1 col-end-2 row-start-1 row-end-2 w-[222px] cursor-pointer relative overflow-hidden max-[700px]:w-full max-[700px]:col-start-1 max-[700px]:col-end-3 max-[700px]:row-start-1 max-[700px]:row-end-1">
+                            <img class="w-full max-[420px]:w-auto" src="./assets/hero-1.png" alt="">
+                            <p class="absolute top-3 left-3 py-[7px] px-[15px] bg-[#004F44] font-[steppe] text-white text-[12px]">New</p>
+                            <div class="flex flex-col gap-1 absolute bottom-[-100%] px-[20px] duration-700 group-hover:bottom-0 group-hover:bg-gradient-to-t from-[#234A45] via-[#234a45a9] to-[#2e403d05] transition-all max-[700px]:w-full">
+                                <p class="font-[steppe] text-[14px] text-[#EFF7F5] pt-16">Epipremnum Flower</p>
+                                <p class="font-[steppe] text-[10px] text-[#EFF7F5]">The flower of human being. It has meaningful of fact that the plant </p>
+                                <button class="w-full text-center py-[8px] px-[10px] bg-white text-[#004F44] mb-4 text-[12px]">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="grid group col-start-2 col-end-3 row-start-1 row-end-3 w-[380px] h-[545px] cursor-pointer relative overflow-hidden max-[700px]:col-start-1 max-[700px]:col-end-3 max-[700px]:row-start-2 max-[700px]:row-end-2 max-[700px]:h-auto max-[420px]:w-[223px]">
+                            <img class="w-full h-full max-[420px]:w-auto"  src="./assets/hero-3.png" alt="">
+                            <p class="absolute top-3 left-3 py-[7px] px-[15px] bg-[#004F44] font-[steppe] text-white text-[12px]">Featured</p>
+                            <div class="flex flex-col gap-3 absolute bottom-[-40%] px-[26px] duration-700 group-hover:bottom-0 group-hover:bg-gradient-to-t from-[#234A45] via-[#234a45a9] to-[#2e403d05] transition-all max-[420px]:w-full">
+                                <p class="font-[steppe] text-[28px] text-[#EFF7F5] pt-16 max-[420px]:text-[14px]">Anthurium Flower</p>
+                                <p class="font-[steppe] text-[#EFF7F5]  max-[420px]:text-[8px]">The flower of human being. It has meaningful of fact that the plant always grow whatever season and weather...</p>
+                                <button class="w-full text-center py-[17px] px-[115px] bg-white text-[#004F44] mb-4 max-[420px]:text-[12px] max-[420px]:py-[8px] max-[420px]:px-[10px]">READ MORE</button>
+                            </div>
+                        </div>
+                        <div class="grid group col-start-1 col-end-2 row-start-2 row-end-3 w-[222px] cursor-pointer relative overflow-hidden max-[700px]:w-full max-[700px]:col-start-1 max-[700px]:col-end-3 max-[700px]:row-start-3 max-[700px]:row-end-3">
+                            <img class="w-full max-[420px]:w-auto" src="./assets/hero-2.png" alt="">
+                            <p class="absolute top-3 left-3 py-[7px] px-[15px] bg-[#004F44] font-[steppe] text-white text-[12px]">Popular</p>
+                            <div class="flex flex-col gap-1 absolute bottom-[-100%] px-[20px] duration-700 group-hover:bottom-0 group-hover:bg-gradient-to-t from-[#234A45] via-[#234a45a9] to-[#2e403d05] transition-all max-[700px]:w-full">
+                                <p class="font-[steppe] text-[14px] text-[#EFF7F5] pt-16">Cactus Flower</p>
+                                <p class="font-[steppe] text-[10px] text-[#EFF7F5]">The flower of human being. It has meaningful of fact that the plant </p>
+                                <button class="w-full text-center py-[8px] px-[10px] bg-white text-[#004F44] mb-4 text-[12px]">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[70px] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="lg:container mx-auto px-[16px]">
+                <div class="flex justify-between mb-[48px]">
+                    <p class="font-[steppe] text-[40px] text-[#004F44] max-[990px]:text-[20px] max-sm:text-[18px]">Featured</p>
+                    <p class="font-[steppe] text-[24px] text-[#004F44] max-[990px]:text-[20px] max-sm:text-[18px]">view all</p>
+                </div>
+                <div class="flex gap-[30px] overflow-auto">
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Peperomia Ginny</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$25</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]" >Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured-2.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Bird’s Nest Fern</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$45</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured-3.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Large Majesty Palm</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$52</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]" >Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured-4.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Pet Friendly Plant</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$30</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured-2.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Duo Friendly Plant</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$36</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cursor-pointer min-w-[280px] w-[280px] max-[990px]:w-[200px] max-[990px]:min-w-[200px] max-sm:min-w-[170px]">
+                        <div>
+                            <img src="./assets/featured.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-7 py-[20px]">
+                            <div class="flex justify-between items-center">
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">Peperomia Ginny</p>
+                                <p class="font-[Steppe] text-[20px] text-[#004F44] font-normal">$25</p>
+                            </div>
+                            <div class="flex justify-between">
+                                <img src="./assets/color.png" alt="">
+                                <button class="py-[8px] px-[24px] text-[#004F44] bg-white border-2 border-[#004f44] font-[Steppe] hover:bg-[#004f44] hover:text-white duration-500 max-[990px]:py-[6px] max-[990px]:px-[18px] max-sm:py-[4px] max-sm:px-[10px] max-sm:text-[12px]">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[90px] bg-[#F3FFFC] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="container mx-auto px-[16px]">
+                <div class="flex gap-[15px] justify-between items-center">
+                    <div>
+                        <a href="#" class="p-2 border-[2px] border-[#004F44] text-[#004F44] text-[36px] max-sm:text-[20px]"><i class="fa-solid fa-sliders"></i></a>
+                    </div>
+                    <div class="bg-white flex items-center w-full border-[2px] border-[#004F44] h-[67px] cursor-text max-sm:h-[45px]">
+                        <input class="placeholder:text-[#004f44] indent-7 outline-none w-full h-full max-sm:text-[14px]" type="search" placeholder="Search flowers...">
+                    </div>
+                    <div class="cursor-pointer">
+                        <a href="#" class="p-4 text-[28px] text-white bg-[#004F44] max-sm:text-[16px] max-sm:p-3"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[90px] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="container mx-auto px-[16px]">
+                <div class="flex justify-between mb-[48px]">
+                    <p class="font-[steppe] text-[40px] text-[#004F44] max-[990px]:text-[20px] max-sm:text-[18px]">Colorful New Arrivals</p>
+                    <p class="font-[steppe] text-[24px] text-[#004F44] max-[990px]:text-[16px] max-sm:text-[14px]">view all</p>
+                </div>
+                <div class="grid grid-cols-4 gap-6 max-[990px]:grid-cols-2 max-sm:grid-cols-1">
+                    <div class="group relative overflow-hidden cursor-pointer  max-sm:mx-auto max-sm:w-80 max-sm:h-80 max-sm:object-cover max-[350px]:w-64">
+                        <img class="w-full h-full max-sm:w-80 max-sm:h-80 max-sm:object-cover" src="./assets/colorful.png" alt="">
+                        <div class="absolute flex flex-col items-center justify-center w-full h-full left-[-100%] top-0 bg-[#012c26a1] group-hover:left-0 duration-700">
+                            <p class="font-[Steppe] text-3xl text-white">Blue Lily</p>
+                            <p class="font-[Steppe] text-[16px] text-white">more information <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden cursor-pointer max-sm:mx-auto max-sm:w-80 max-sm:h-80 max-sm:object-cover max-[350px]:w-64">
+                        <img class="w-full h-full max-sm:w-80 max-sm:h-80 max-sm:object-cover" src="./assets/colorful-2.png" alt="">
+                        <div class="absolute flex flex-col items-center justify-center w-full h-full left-[-100%] top-0 bg-[#012c26a1] group-hover:left-0 duration-700">
+                            <p class="font-[Steppe] text-3xl text-white">Iris</p>
+                            <p class="font-[Steppe] text-[16px] text-white">more information <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden cursor-pointer max-sm:mx-auto max-sm:w-80 max-sm:h-80 max-sm:object-cover max-[350px]:w-64">
+                        <img class="w-full h-full max-sm:w-80 max-sm:h-80 max-sm:object-cover" src="./assets/colorful-3.png" alt="">
+                        <div class="absolute flex flex-col items-center justify-center w-full h-full left-[-100%] top-0 bg-[#012c26a1] group-hover:left-0 duration-700">
+                            <p class="font-[Steppe] text-3xl text-white">Common lilac</p>
+                            <p class="font-[Steppe] text-[16px] text-white">more information <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                    <div class="group relative overflow-hidden cursor-pointer max-sm:mx-auto max-sm:w-80 max-sm:h-80 max-sm:object-cover max-[350px]:w-64">
+                        <img class="w-full h-full max-sm:w-80 max-sm:h-80 max-sm:object-cover" src="./assets/colorful-4.png" alt="">
+                        <div class="absolute flex flex-col items-center justify-center w-full h-full left-[-100%] top-0 bg-[#012c26a1] group-hover:left-0 duration-700">
+                            <p class="font-[Steppe] text-3xl text-white">Glora</p>
+                            <p class="font-[Steppe] text-[16px] text-white">more information <i class="fa-solid fa-arrow-right-long"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F3FFFC] py-[90px] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="container mx-auto px-[16px]">
+                <div class="mb-[48px]">
+                    <p class="font-[steppe] text-[40px] text-[#004F44] max-[990px]:text-[20px] max-sm:text-[18px]">Plant stands</p>
+                </div>
+                <div class="flex justify-between max-[990px]:flex-col gap-[24px] max-[990px]:items-center">
+                    <div class="group hover:shadow-2xl hover:shadow-slate-700 duration-500 overflow-hidden cursor-pointer hover:border-2 hover:border-[#004f44]">
+                        <img class="group-hover:scale-110 duration-500" src="./assets/plant.png" alt="">
+                    </div>
+                    <div class="group hover:shadow-2xl hover:shadow-slate-700 duration-500 overflow-hidden cursor-pointer hover:border-2 hover:border-[#004f44]">
+                        <img class="group-hover:scale-110 duration-500" src="./assets/plant-2.png" alt="">
+                    </div>
+                    <div class="group hover:shadow-2xl hover:shadow-slate-700 duration-500 overflow-hidden cursor-pointer hover:border-2 hover:border-[#004f44]">
+                        <img class="group-hover:scale-110 duration-500" src="./assets/plant-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[90px] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="container mx-auto px-[16px]">
+                <div class="relative">
+                    <img class="w-full h-full" src="./assets/bg.png" alt="">
+                    <div class="absolute top-1/2 left-14 h-ful translate-y-[-50%] max-sm:py-6">
+                        <p class="font-[Steppe] text-[44px] text-[#9C6955] max-[990px]:text-[24px] max-sm:text-[18px] max-[450px]:text-[12px]">Free Shipping Services</p>
+                        <p class="font-[Steppe] text-[17px] text-[#9C6955] max-[990px]:text-[16px] max-sm:text-[14px] max-[450px]:text-[10px]">*only for the same region</p>
+                        <p class="font-[Steppe] text-[#9C6955] mt-16 max-sm:text-[14px] max-sm:mt-4 max-[450px]:text-[9px]"><i class="fa-solid fa-phone"></i> +62 1189-2719-00</p>
+                        <p class="font-[Steppe] text-[#9C6955] max-sm:text-[14px] max-[450px]:text-[9px]"><i class="fa-solid fa-envelope"></i> order@platify.co</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-[90px] max-[990px]:py-[60px] max-sm:py-[30px]">
+            <div class="container mx-auto px-[16px]">
+                <div class="relative">
+                    <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6001.976328521989!2d69.20988839999997!3d41.222028400000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1723751757936!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="absolute top-1/2 left-4 bg-white p-7 translate-y-[-50%] w-[50%] max-[990px]:left-1/2 max-[990px]:translate-x-[-50%]">
+                        <p class="font-[Steppe] text-[24px] text-[#0A1E1B] max-sm:text-[16px] max-sm:pt-2">Visit us</p>
+                        <p class="font-[Steppe] text-[#666666] max-sm:text-[12px]">Sergeli-7, Tashkent</p>
+                        <p class="font-[Steppe] text-[#666666] max-sm:text-[12px]">1327 Block M</p>
+                        <p class="font-[Steppe] text-[#666666] max-sm:text-[12px]">Mardial, Sigure</p>
+                        <p class="font-[Steppe] text-[#666666] max-sm:text-[12px]">T2G 0T2</p>
+                        <p class="font-[Steppe] text-[#666666] mt-2 max-sm:text-[12px]"><span class="font-[Steppe] text-[#0A1E1B] max-sm:text-[14px]">Open day</span> : 11am–5:30pm everyday</p>
+                        <p class="absolute top-0 right-0 py-2 px-4 bg-[#004F44] text-white font-[Steppe] text-[14px] max-sm:py-1 max-sm:px-2 max-sm:text-[8px]"><i class="fa-solid fa-diamond-turn-right"></i> GET DIRECTIONS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+<footer class="bg-slate-700">
+    <div class="container mx-auto px-[16px]">
+      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-white">Company</h2>
+            <ul class="text-[#c8c8c8] dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Careers</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Brand Center</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-white">Help center</h2>
+            <ul class="text-[#c8c8c8] dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Discord Server</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Twitter</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Facebook</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-white">Legal</h2>
+            <ul class="text-[#c8c8c8] dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Privacy Policy</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Licensing</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-sm font-semibold text-white">Download</h2>
+            <ul class="text-[#c8c8c8] dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">iOS</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Android</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Windows</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">MacOS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="px-4 py-6  md:flex md:items-center md:justify-between">
+        <span class="text-sm text-[#c8c8c8] sm:text-center">© 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+        </span>
+        <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+            <a href="#" class="text-[#c8c8c8] hover:text-gray-900">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="#" class="text-[#c8c8c8] hover:text-gray-900">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a href="#" class="text-[#c8c8c8] hover:text-gray-900">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+              <a href="#" class="text-[#c8c8c8] hover:text-gray-900">
+                <i class="fa-brands fa-github"></i>
+                  <span class="sr-only">GitHub account</span>
+              </a>
+              <a href="#" class="text-[#c8c8c8] hover:text-gray-900">
+                <i class="fa-brands fa-dribbble"></i>
+              </a>
+        </div>
+      </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
